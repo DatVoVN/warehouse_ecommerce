@@ -1,0 +1,33 @@
+.banner{
+    justify-content: center;
+    align-items: center;
+}
+.banner h4{
+    color: black;
+    font-size: 20px;
+}
+.banner h2{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.banner p{
+    color: black;
+    font-size: 15px;
+}
+.banner img{
+    width: 50%;
+    height: 600px;
+}
+.banner-option {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.banner-option > div {
+    flex: 1; 
+    border: 1px solid #ccc; 
+    padding: 20px; 
+    margin: 0 10px; 
+}
